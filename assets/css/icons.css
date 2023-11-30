@@ -1,0 +1,59 @@
+.github::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/github.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.calendar::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.javascript::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/javascript.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+}
+
+.html::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/html.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+}
+
+.css::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/css.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+}
+
+.sass::before {
+    content: '';
+    display: inline-block;
+    background-image: url(/assets/img/icons/sass.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+}
