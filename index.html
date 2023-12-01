@@ -32,17 +32,17 @@
     <main class="main">
         <header class="header">
             <div class="header__photo">
-                <img class="header__photo-img" src="assets/img/eduardo.jpeg" title="Foto do Eduardo Pina"
-                    alt="Foto do Eduardo Pina">
+                <img class="header__photo-img" id="profile.photo" src="assets/img/profile.jpg" title="Foto de Perfil"
+                    alt="Foto de Perfil">
             </div>
 
-            <h1 class="header__title">Olá,<br>eu sou o<br>Eduardo Pina</h1>
+            <h1 class="header__title">Olá,<br>eu sou o<br><span id="profile.name"></span>Carregando...</h1>
 
             <div class="header__information">
-                <a disable class="user">Front-end Developer</a>
-                <a disable class="location">São Paulo - BR</a>
-                <a href="tel:(11) 9 1579-4212" class="phone">(11) 9 1579-4212</a>
-                <a href="mailto:eduardo.happ@yahoo.com" class="email">eduardo.happ@yahoo.com</a>
+                <a disable class="user" id="profile.job">Carregando...</a>
+                <a disable class="location" id="profile.location">Carregando...</a>
+                <a href="tel:(11) 9 1579-4212" class="phone" id="profile.phone">Carregando...</a>
+                <a href="mailto:eduardo.happ@yahoo.com" class="email" id="profile.email">Carregando...</a>
             </div>
         </header>
 
@@ -149,6 +149,8 @@
     </main>
 
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
