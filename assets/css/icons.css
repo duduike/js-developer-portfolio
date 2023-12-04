@@ -4,8 +4,8 @@
     background-image: url(/assets/img/icons/github.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1.15rem;
-    height: 1.15rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .calendar::before {
@@ -56,4 +56,11 @@
     background-size: contain;
     width: 4rem;
     height: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .github::before {
+        width: 1.15rem;
+        height: 1.15rem;
+    }
 }
