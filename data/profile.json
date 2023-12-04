@@ -39,31 +39,26 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-        "github": true
+        "name": "Meu primeiro portfolio em HTML, CSS, JS, SASS e Bootstrap",
+        "url": "https://github.com/duduike/Portifolio",
+        "github": "https://dev-eduardo-pina.netlify.app/"
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-        "github": true
+        "name": "Digital Innonvation One clone em React.js",
+        "url": "https://dio-clone-chi.vercel.app/",
+        "github": "https://github.com/duduike/DIO-CLONE"
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-      },
-      {
-        "name": "Software Engineering Lead / DIO",
+        "name": "Office Assistant / Clenea",
         "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "description": "Área de operações, gerenciando chegada e saída de produtos até clientes finais."
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Analista de Suporte Técnico Pleno / TDS Informática",
+        "period": "2014 - 2019",
+        "description": "Suporte Help Desk a correspondente bancário (Bradesco, Itaú e Santander)."
       }
     ]
   }
