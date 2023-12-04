@@ -51,6 +51,11 @@
     ],
     "professionalExperience": [
       {
+        "name": "Front-end Developer / Freelancer",
+        "period": "Current",
+        "description": "Executo manutenção de sites em wordpress."
+      },
+      {
         "name": "Office Assistant / Clenea",
         "period": "2021 - 2022",
         "description": "Área de operações, gerenciando chegada e saída de produtos até clientes finais."
