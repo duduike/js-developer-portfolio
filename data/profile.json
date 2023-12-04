@@ -40,8 +40,8 @@
     "portfolio": [
       {
         "name": "Meu primeiro portfolio em HTML, CSS, JS, SASS e Bootstrap",
-        "url": "https://github.com/duduike/Portifolio",
-        "github": "https://dev-eduardo-pina.netlify.app/"
+        "url": "https://dev-eduardo-pina.netlify.app/",
+        "github": "https://github.com/duduike/Portifolio"
       },
       {
         "name": "Digital Innonvation One clone em React.js",
