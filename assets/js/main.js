@@ -15,7 +15,8 @@
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
-    photo.alt = profileData.name
+    photo.alt = `Foto de perfil do ${profileData.name}`
+    photo.title = `Foto de perfil do ${profileData.name}`
 
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
@@ -45,7 +46,7 @@ function updateHardSkills(profileData) {
         hardSkills.innerHTML = createItems(
             profileData.skills.hardSkills,
             skill => `
-                <i class="${skill.name}"></i>
+                <i class="${skill.name}" alt="Icone do ${skill.name}" title="Icone do ${skill.name}"></i>
             `
         )
     }
