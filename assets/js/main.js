@@ -1,3 +1,17 @@
+(async () => {
+    try {
+        const profileData = await fetchProfileData()
+        updateProfileInfo(profileData)
+        updateSoftSkills(profileData)
+        updateHardSkills(profileData)
+        updateLanguages(profileData)
+        updatePotfolio(profileData)
+        updateExperience(profileData)
+    } catch(error) {
+        console.error('Erro ao buscar ou atualizar dados:', error)
+    }
+})()
+
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -21,56 +35,71 @@ function updateProfileInfo(profileData) {
     email.href = `mailto:${profileData.email}`
 }
 
+const createItems = (data, templateFunction) => {
+    return data.map(item => templateFunction(item)).join('')
+}
+
 function updateHardSkills(profileData) {
-    const hardSkills = document.getElementById('profile.skills.hardSkillsName')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `
-    <i class="${skill.name}"></i>
-    `).join('')
+    const hardSkills = document.getElementById('profile.skills.hardSkillsName');
+    if (hardSkills) {
+        hardSkills.innerHTML = createItems(
+            profileData.skills.hardSkills,
+            skill => `
+                <i class="${skill.name}"></i>
+            `
+        )
+    }
 }
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills');
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `
-        <li>${skill}</li>
-    `).join('');
+    if (softSkills) {
+        softSkills.innerHTML = createItems(
+            profileData.skills.softSkills,skill => `
+                <li>${skill}</li>
+            `)
+    }
 }
 
 function updateLanguages(profileData) {
-    const languages = document.getElementById('profile.languages')
-    languages.innerHTML = profileData.languages.map(languages => `
-    <li>${languages}"</li>
-    `).join('')
+    const languages = document.getElementById('profile.languages');
+    if (languages) {
+        languages.innerHTML = createItems(
+            profileData.languages,language => `
+            <li>${language}</li>
+            `
+        )
+    }
 }
 
 function updatePotfolio(profileData) {
-    const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(portfolio => `
-    <li>
-        <a href="${portfolio.github}" target="_blank">
-            <span class="acordeon__portfolio-title github">${portfolio.name}</span>
-        </a>
-        <a class="acordeon__portfolio-link" href="${portfolio.url}" target="_blank">${portfolio.url}</a>
-    </li>
-    `).join('')
+    const portfolio = document.getElementById('profile.portfolio');
+    if (portfolio) {
+        portfolio.innerHTML = createItems(
+            profileData.portfolio,project => `
+                <li>
+                    <a href="${project.github}" target="_blank">
+                        <span class="acordeon__portfolio-title github">${project.name}</span>
+                    </a>
+                    <a class="acordeon__portfolio-link" href="${project.url}" target="_blank">${project.url}</a>
+                </li>
+            `
+        )
+    }
 }
 
 function updateExperience(profileData) {
     const experience = document.getElementById('profile.experience')
-    experience.innerHTML = profileData.professionalExperience.map( experience => `
-    <li>
-        <h3 class="acordeon__experience-title">${experience.name}</h3>
-        <span class="acordeon__experience-period calendar">${experience.period}</span>
-        <p class="acordeon__experience-p">${experience.description}</p>
-    </li>
-    `).join('')
+    if (experience) {
+        experience.innerHTML = createItems(
+            profileData.professionalExperience,exp => `
+                <li>
+                    <h3 class="acordeon__experience-title">${exp.name}</h3>
+                    <span class="acordeon__experience-period calendar">${exp.period}</span>
+                    <p class="acordeon__experience-p">${exp.description}</p>
+                </li>
+            `
+        )
+    }
 }
 
-(async () => {
-    const profileData = await fetchProfileData()
-    updateProfileInfo(profileData)
-    updateSoftSkills(profileData)
-    updateHardSkills(profileData)
-    updateLanguages(profileData)
-    updatePotfolio(profileData)
-    updateExperience(profileData)
-})()
