@@ -39,6 +39,16 @@
     ],
     "portfolio": [
       {
+        "name": "Cadastro de Usuários - Front-end",
+        "url": "https://cadastro-usuarios-six.vercel.app/",
+        "github": "https://github.com/duduike/cadastro-usuarios"
+      },
+      {
+        "name": "Cadastro de Usuários - Backend",
+        "url": "https://cadastro-usuarios-six.vercel.app/",
+        "github": "https://github.com/duduike/api-users"
+      },
+      {
         "name": "Meu primeiro portfolio em HTML, CSS, JS, SASS e Bootstrap",
         "url": "https://dev-eduardo-pina.netlify.app/",
         "github": "https://github.com/duduike/Portifolio"
