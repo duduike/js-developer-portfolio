@@ -8,16 +8,8 @@
     "skills": {
         "hardSkills": [
           {
-            "name": "HTML5",
-            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
-          },
-          {
-            "name": "CSS3",
-            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
-          },
-          {
-            "name": "JavaScript",
-            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+            "name": "HTML5, CSS3, JavaScript",
+            "logo": "https://www.clipartmax.com/png/middle/259-2591611_documentaci%C3%B3n-https-developer-mozilla-html-css-js-png.png"
           },
           {
             "name": "React",
@@ -25,19 +17,16 @@
           },
           {
             "name": "VTEX IO",
-            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/vtex.png"
+            "logo": "https://avatars.githubusercontent.com/u/1288938?s=280&v=4"
           },
           {
-            "name": "SEO",
-            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/seo.png"
+            "name": "Node JS",
+            "logo": "https://logospng.org/wp-content/uploads/node-js.png"
           }
         ],
         "softSkills": [
           "Adaptabilidade",
-          "Trabalho em Equipe",
-          "Pensamento Crítico",
           "Aprendizado Contínuo",
-          "Criatividade",
           "Análise de E-commerce",
           "Otimização Web"
         ]
@@ -72,7 +61,7 @@
       "professionalExperience": [
         {
           "name": "Desenvolvedor Front-End VTEX IO e Analista de E-commerce / DarkSide Books",
-          "period": "Current",
+          "period": "2024 - Current",
           "description": "Desenvolvimento e manutenção de sistemas de e-commerce utilizando VTEX IO e versão legado. Gerenciamento de produtos digitais, otimização web, SEO, implementação de meta tags e práticas modernas para melhorar visibilidade em motores de busca. Trabalho com React, HTML5, CSS3 e JavaScript na principal editora brasileira de terror e fantasia."
         },
         {
