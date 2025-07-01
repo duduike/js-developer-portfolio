@@ -6,74 +6,84 @@
     "phone": "(11) 91579-4212",
     "email": "eduardo.happ@yahoo.com",
     "skills": {
-      "hardSkills": [
+        "hardSkills": [
+          {
+            "name": "HTML5",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+          },
+          {
+            "name": "CSS3",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+          },
+          {
+            "name": "React",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          },
+          {
+            "name": "VTEX IO",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/vtex.png"
+          },
+          {
+            "name": "SEO",
+            "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/seo.png"
+          }
+        ],
+        "softSkills": [
+          "Adaptabilidade",
+          "Trabalho em Equipe",
+          "Pensamento Crítico",
+          "Aprendizado Contínuo",
+          "Criatividade",
+          "Análise de E-commerce",
+          "Otimização Web"
+        ]
+      },
+      "languages": [
+        "Português BR",
+        "Inglês (básico)",
+        "Espanhol (intermediário)"
+      ],
+      "portfolio": [
         {
-          "name": "html",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+          "name": "Cadastro de Usuários - Front-end",
+          "url": "https://cadastro-usuarios-six.vercel.app/",
+          "github": "https://github.com/duduike/cadastro-usuarios"
         },
         {
-          "name": "css",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+          "name": "Cadastro de Usuários - Backend",
+          "url": "https://cadastro-usuarios-six.vercel.app/",
+          "github": "https://github.com/duduike/api-users"
         },
         {
-          "name": "javascript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "Meu primeiro portfolio em HTML, CSS, JS, SASS e Bootstrap",
+          "url": "https://dev-eduardo-pina.netlify.app/",
+          "github": "https://github.com/duduike/Portifolio"
         },
         {
-          "name": "sass",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "name": "Digital Innovation One clone em React.js",
+          "url": "https://dio-clone-chi.vercel.app/",
+          "github": "https://github.com/duduike/DIO-CLONE"
         }
       ],
-      "softSkills": [
-        "Adaptabilidade",
-        "Trabalho em Equipe",
-        "Pensamento Crítico",
-        "Aprendizado Contínuo",
-        "Criatividade"
+      "professionalExperience": [
+        {
+          "name": "Desenvolvedor Front-End VTEX IO e Analista de E-commerce / DarkSide Books",
+          "period": "Current",
+          "description": "Desenvolvimento e manutenção de sistemas de e-commerce utilizando VTEX IO e versão legado. Gerenciamento de produtos digitais, otimização web, SEO, implementação de meta tags e práticas modernas para melhorar visibilidade em motores de busca. Trabalho com React, HTML5, CSS3 e JavaScript na principal editora brasileira de terror e fantasia."
+        },
+        {
+          "name": "Office Assistant / Clenea",
+          "period": "2021 - 2022",
+          "description": "Área de operações, gerenciando chegada e saída de produtos até clientes finais."
+        },
+        {
+          "name": "Analista de Suporte Técnico Pleno / TDS Informática",
+          "period": "2014 - 2019",
+          "description": "Suporte Help Desk a correspondente bancário (Bradesco, Itaú e Santander)."
+        }
       ]
-    },
-    "languages": [
-      "Português BR",
-      "Inglês (basico)",
-      "Espanhol (intermediário)"
-    ],
-    "portfolio": [
-      {
-        "name": "Cadastro de Usuários - Front-end",
-        "url": "https://cadastro-usuarios-six.vercel.app/",
-        "github": "https://github.com/duduike/cadastro-usuarios"
-      },
-      {
-        "name": "Cadastro de Usuários - Backend",
-        "url": "https://cadastro-usuarios-six.vercel.app/",
-        "github": "https://github.com/duduike/api-users"
-      },
-      {
-        "name": "Meu primeiro portfolio em HTML, CSS, JS, SASS e Bootstrap",
-        "url": "https://dev-eduardo-pina.netlify.app/",
-        "github": "https://github.com/duduike/Portifolio"
-      },
-      {
-        "name": "Digital Innonvation One clone em React.js",
-        "url": "https://dio-clone-chi.vercel.app/",
-        "github": "https://github.com/duduike/DIO-CLONE"
-      }
-    ],
-    "professionalExperience": [
-      {
-        "name": "Front-end Developer / Freelancer",
-        "period": "Current",
-        "description": "Executo manutenção de sites em wordpress."
-      },
-      {
-        "name": "Office Assistant / Clenea",
-        "period": "2021 - 2022",
-        "description": "Área de operações, gerenciando chegada e saída de produtos até clientes finais."
-      },
-      {
-        "name": "Analista de Suporte Técnico Pleno / TDS Informática",
-        "period": "2014 - 2019",
-        "description": "Suporte Help Desk a correspondente bancário (Bradesco, Itaú e Santander)."
-      }
-    ]
   }
